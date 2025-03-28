@@ -1,0 +1,5 @@
+console.log("El archivo JavaScript se ha cargado correctamente.");
+document.getElementById("toggleBenefits").onclick = function() { var benefits =
+document.getElementById("benefits"); //Comprobamos si está oculto o no
+if(benefits.style.display === "none") { benefits.style.display = "block"; } else
+{ benefits.style.display = "none"; } };
